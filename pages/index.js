@@ -18,7 +18,7 @@ export default function Pokemones({ pokemones }) {
   console.log(pokemones);
   return (
     <div>
-      <p>Index Home Pokemones</p>
+      <p>Minha Lista de Pokemons</p>
       <ul>
         {pokemones.map((pokemon) => (
           <Pokemon pokemon={pokemon} key={pokemon.name} />
